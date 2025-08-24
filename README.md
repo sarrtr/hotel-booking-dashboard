@@ -24,12 +24,12 @@ This project presents an interactive dashboard analyzing hotel booking data from
 The dashboard provides insights into key hotel performance metrics:
 
 ### 🔑 KPIs
-- Total Revenue  
-- ADR (Average Daily Rate)
-- RevPAR (Revenue per Available Room)
-- Occupancy Rate
-- Cancellation Rate 
-- Repeat Guest Ratio  
+- **Total Revenue** - overall income generated from all successful bookings: *ADR × number of roomnights*.
+- **ADR (Average Daily Rate)** - the average revenue earned per occupied room per night.
+- **RevPAR (Revenue per Available Room)** - indicates how much revenue each available room generates, regardless of whether it is occupied: *ADR × Occupancy Rate*.
+- **Occupancy Rate** - rate of available rooms that were actually booked and occupied.
+- **Cancellation Rate** - rate of total bookings that were canceled before arrival.
+- **Repeat Guest Ratio** - share of bookings made by returning customers.
 
 ### 📊 Visualizations
 
